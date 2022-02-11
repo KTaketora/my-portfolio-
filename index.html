@@ -6,10 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/image/tiger.png">
     <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="ポートフォリオ制作の記念すべき第一歩です。"
+    />
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <input type="checkbox" id="menu" />
+    <label for="menu" class="open">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+    <label for="menu" class="back"></label>
+    <main>
+      <div class="top-tag">
+        <nav>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/taketoraaa/">Instagram</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/CarpTora">Twitter</a>
+            </li>
+            <li>
+              <a href="https://github.com/KTaketora">Github</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
+      <header>
+        <div class="header-container" id="headerContainer">
+          <!-- <img src="/image/photo1.jpg" alt="top-img"> -->
+          <div class="header-top">
+            <h1>TAKETORA KAWAMOTO</h1>
+            <h2>Profile Site</h2>
+          </div>
+        </div>
+      </header>
+      <section class="about-top" id="aboutTop">
+        <h1>- about -</h1>
+        <div class="about-container">
+          <div class="about-pic" id="aboutPic">
+          </div>
+          
+          <div class="about-details">
+            <div class="about-qa">
+              <p class="about-question">名前</p>
+              <p class="about-answer">河本剛虎</p>
+            </div>
+            <div class="about-qa">
+              <p class="about-question">生年月日</p>
+              <p class="about-answer">2000/03/12</p>
+            </div>
+            <div class="about-qa">
+              <p class="about-question">大学</p>
+              <p class="about-answer">岡山大学<br />
+              <a href="https://www.okayama-u.ac.jp/">HPはこちら</a>
+              </p>
+            </div>
+            <div class="about-qa">
+              <p class="about-question">学年</p>
+              <p class="about-answer">3回生</p>
+            </div>
+            <div class="about-qa">
+              <p class="about-question">学部</p>
+              <p class="about-answer">法学部</p>
+            </div>
+            <div class="about-qa">
+              <p class="about-question">趣味</p>
+              <p class="about-answer">野球、YouTube、<br />旅行、料理</p>
+            </div>
+          <div>
+        </div>
+      </section>
+      <section class="more-top" id="moreTop">
+        <h1>- more -</h1>
+        <div class="more-container">
+          <div class="more-pic" id="morePic"></div>
+          <div class="more-details">
+            <div class="more-qa">
+              <p class="more-question">部活</p>
+              <p class="more-answer">準硬式野球部<br />第73回全日本大学準硬式野球<br />選手権大会出場<br />
+              <a href="https://www.instagram.com/jun2021kou/">部活のInstagramはこちら</a>
+              </p>
+            </div>
+            <div class="more-qa">
+              <p class="more-question">アルバイト</p>
+              <p class="more-answer">BABY FACE PLANET'<br />
+                <a href="https://www.instagram.com/bfp_okayama_i/">店舗Instagramはこちら</a>
+              </p>
+            </div>
+            <div class="more-qa">
+              <p class="more-question">スキル</p>
+              <p class="more-answer">HTML、CSS、<br />JavaScript、Python</p>
+            </div>
+      </section>
+
+      <footer>
+        <small> @ 2022 TaketoraKawamoto All Rights Reserved </small>
+      </footer>
+    </main>
+  <aside>
+    <label for="menu" class="close">×</label>
+    <nav>
+      <ul class="side-tag">
+        <li>
+          <a href="#headerContainer">home</a>
+        </li>
+        <li>
+          <a href="#aboutTop">about</a>
+        </li>
+        <li>
+          <a href="#moreTop">more</a>
+        </li>
+      </ul>
+    </nav>
+  </aside> 
+
     <script src="main.js"></script>
   </body>
 </html>
