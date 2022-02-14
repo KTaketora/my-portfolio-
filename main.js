@@ -1,18 +1,18 @@
 const aboutChangeImg = [
-  "/image/photo2.jpg",
-  "/image/pic_baby.jpg",
-  "/image/pic_koara.jpg",
-  "/image/pic_reiwa.jpg",
-  "/image/pic_carp.jpg",
-  "/image/pic_hanabi.jpg",
+  "image/photo2.jpg",
+  "image/pic_baby.jpg",
+  "image/pic_koara.jpg",
+  "image/pic_reiwa.jpg",
+  "image/pic_carp.jpg",
+  "image/pic_hanabi.jpg",
 ];
 const moreChangeImg = [
-  "/image/photo3.jpg",
-  "/image/pic_teach.jpg",
-  "/image/pic_mirror.jpg",
-  "/image/pic_base.jpg",
-  "/image/pic_gakusai.jpg",
-  "/image/pic_suit.jpg",
+  "image/photo3.jpg",
+  "image/pic_teach.jpg",
+  "image/pic_mirror.jpg",
+  "image/pic_base.jpg",
+  "image/pic_gakusai.jpg",
+  "image/pic_suit.jpg",
 ];
 
 const aboutPic = document.querySelector("#aboutPic");

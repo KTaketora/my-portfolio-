@@ -43,7 +43,7 @@ header {
 }
 .header-container {
   width: 100vh;
-  background: url(/image/photo1.jpg) no-repeat top center;
+  background: url("image/photo1.jpg") no-repeat top center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ header {
 }
 .about-pic {
   width: 100%;
-  background: url(/image/photo2.jpg) no-repeat top center;
+  background: url("image/photo2.jpg") no-repeat top center;
   background-size: cover;
   margin: 40px 40px 40px 40px;
 }
@@ -123,7 +123,7 @@ header {
 }
 .more-pic {
   width: 100%;
-  background: url(/image/photo3.jpg) no-repeat top center;
+  background: url("image/photo3.jpg") no-repeat top center;
   background-size: cover;
   margin: 40px 40px 40px 40px;
 }
